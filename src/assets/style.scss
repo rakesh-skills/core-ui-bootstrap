@@ -1,20 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+
 //@import 'node_modules/simplebar/dist/simplebar.css';
 // If you want to override variables do it here
-@import "./assets/variables";
+@import "variables";
 
 $enable-ltr: true; /* stylelint-disable-line scss/dollar-variable-default */
 $enable-rtl: true; /* stylelint-disable-line scss/dollar-variable-default */
 
 // Import styles
-//@import "@coreui/coreui/scss/coreui";
+@import "@coreui/coreui/scss/coreui";
 
-// Import styles
-@import "~@coreui/coreui/scss/coreui";
-@import "./assets/layout";
+@import "layout";
 
 // Prism.js
-@import "./assets/examples";
+@import "examples";
 
 // If you want to add custom CSS you can put it here.
-@import "./assets/custom";
+@import "custom";
